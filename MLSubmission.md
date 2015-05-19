@@ -1,5 +1,11 @@
 Project Write Up
 
+---
+title: "MLProject"
+author: "RT"
+date: "Tuesday, May 19, 2015"
+output: html_document
+---
 
 > subsamples <- createDataPartition(y=trainingset$classe, p=0.75, list=FALSE)
 > subTraining <- trainingset[subsamples, ]
